@@ -1,0 +1,20 @@
+
+
+#### Trait Icons for To Arms Against Tyranny ####
+
+
+### FIN ### + SS
+spriteTypes = {	
+    	
+	spriteType = {
+		name = "GFX_trait_jaeger"
+		texturefile = "gfx/interface/traits/personal/trait_jaeger.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_trait_ss_officer"
+        texturefile = "gfx/interface/traits/personal/trait_ss_officer.dds"
+		legacy_lazy_load = no
+    }
+}

@@ -1,0 +1,174 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = GFX_portrait_AAW_USA_norman_thomas
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_norman_thomas.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_norman_thomas_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_norman_thomas.dds"
+	}	
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_chesty_puller
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_chesty_puller.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_chesty_puller_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_chesty_puller.dds"
+	}	
+		
+	spriteType = {
+		name = GFX_portrait_AAW_USA_clifton_cates
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_clifton_cates.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_clifton_cates_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_clifton_cates.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_jacob_devers
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_jacob_devers.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_jacob_devers_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_jacob_devers.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_matthew_ridgway
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_matthew_ridgway.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_matthew_ridgway_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_matthew_ridgway.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_albert_wedemeyer
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_albert_wedemeyer.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_albert_wedemeyer_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_albert_wedemeyer.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_george_marshall
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_george_marshall.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_george_marshall_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_george_marshall.dds"
+	}	
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_david_shoup
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_david_shoup.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_david_shoup_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_david_shoup.dds"
+	}	
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_pedro_del_valle
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_pedro_del_valle.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_pedro_del_valle_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_pedro_del_valle.dds"
+	}		
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_walton_walker
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_walton_walker.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_walton_walker_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_walton_walker.dds"
+	}			
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_arthur_carpender
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_arthur_carpender.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_arthur_carpender_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_arthur_carpender.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_harry_hill
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_harry_hill.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_harry_hill_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_harry_hill.dds"
+	}	
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_jerauld_wright
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_jerauld_wright.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_jerauld_wright_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_jerauld_wright.dds"
+	}	
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_willis_lee
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_willis_lee.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_willis_lee_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_willis_lee.dds"
+	}		
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_alfred_pride
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_alfred_pride.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_alfred_pride_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_alfred_pride.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_daniel_barbey
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_daniel_barbey.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_daniel_barbey_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_daniel_barbey.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_AAW_USA_thomas_kinkaid
+		texturefile = "gfx/leaders/USA/AAW_portrait_USA_thomas_kinkaid.dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_AAW_USA_thomas_kinkaid_small
+		texturefile = "gfx/interface/ideas/AAW_idea_USA_thomas_kinkaid.dds"
+	}
+
+	
+}

@@ -1,0 +1,388 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_artillery_field_exercises"
+		texturefile = "gfx/interface/goals/aaw_goal_artillery_field_exercises.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_asw_effort"
+		texturefile = "gfx/interface/goals/aaw_goal_asw_effort.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_bomber"
+		texturefile = "gfx/interface/goals/aaw_goal_bomber.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_carrier1"
+		texturefile = "gfx/interface/goals/aaw_goal_carrier1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_carrier2"
+		texturefile = "gfx/interface/goals/aaw_goal_carrier2.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_carrier3"
+		texturefile = "gfx/interface/goals/aaw_goal_carrier3.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_carrier4"
+		texturefile = "gfx/interface/goals/aaw_goal_carrier4.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_combined_bomber_offensive"
+		texturefile = "gfx/interface/goals/aaw_goal_combined_bomber_offensive.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_defense_logistics_board"
+		texturefile = "gfx/interface/goals/aaw_goal_defense_logistics_board.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_dive_bombing"
+		texturefile = "gfx/interface/goals/aaw_goal_dive_bombing.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_fighter"
+		texturefile = "gfx/interface/goals/aaw_goal_fighter.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_fighter2"
+		texturefile = "gfx/interface/goals/aaw_goal_fighter2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_first_ssf"
+		texturefile = "gfx/interface/goals/aaw_goal_first_ssf.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_floating_fortress"
+		texturefile = "gfx/interface/goals/aaw_goal_floating_fortress.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_flying_fortress"
+		texturefile = "gfx/interface/goals/aaw_goal_flying_fortress.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_lessons_from_the_great_war"
+		texturefile = "gfx/interface/goals/aaw_goal_lessons_from_the_great_war.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_louisiana_maneuver_phase_two"
+		texturefile = "gfx/interface/goals/aaw_goal_louisiana_maneuver_phase_two.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_mechanized_warfare"
+		texturefile = "gfx/interface/goals/aaw_goal_mechanized_warfare.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_officer1"
+		texturefile = "gfx/interface/goals/aaw_goal_officer1.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_officer2"
+		texturefile = "gfx/interface/goals/aaw_goal_officer2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_officer3"
+		texturefile = "gfx/interface/goals/aaw_goal_officer3.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_quartermaster"
+		texturefile = "gfx/interface/goals/aaw_goal_quartermaster.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_silent_service"
+		texturefile = "gfx/interface/goals/aaw_goal_silent_service.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_submarine_primacy"
+		texturefile = "gfx/interface/goals/aaw_goal_submarine_primacy.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_superior_firepower"
+		texturefile = "gfx/interface/goals/aaw_goal_superior_firepower.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_tac"
+		texturefile = "gfx/interface/goals/aaw_goal_tac.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_tactics_review_board"
+		texturefile = "gfx/interface/goals/aaw_goal_tactics_review_board.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_usaac"
+		texturefile = "gfx/interface/goals/aaw_goal_usaac.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_usaaf"
+		texturefile = "gfx/interface/goals/aaw_goal_usaaf.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_farm1"
+		texturefile = "gfx/interface/goals/aaw_goal_farm1.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_farm2"
+		texturefile = "gfx/interface/goals/aaw_goal_farm2.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_highway1"
+		texturefile = "gfx/interface/goals/aaw_goal_highway1.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_hoover_dam"
+		texturefile = "gfx/interface/goals/aaw_goal_hoover_dam.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_railroad1"
+		texturefile = "gfx/interface/goals/aaw_goal_railroad1.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_railroad2"
+		texturefile = "gfx/interface/goals/aaw_goal_railroad2.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_railroad3"
+		texturefile = "gfx/interface/goals/aaw_goal_railroad3.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_railroad4"
+		texturefile = "gfx/interface/goals/aaw_goal_railroad4.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_army_modernization"
+		texturefile = "gfx/interface/goals/aaw_goal_army_modernization.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_uncle_sam"
+		texturefile = "gfx/interface/goals/aaw_goal_uncle_sam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_lady_liberty_angel"
+		texturefile = "gfx/interface/goals/aaw_goal_lady_liberty_angel.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_louisiana_maneuver_phase_one"
+		texturefile = "gfx/interface/goals/aaw_goal_louisiana_maneuver_phase_one.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_main_battle_tanks"
+		texturefile = "gfx/interface/goals/aaw_goal_main_battle_tanks.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_airbase_expansion"
+		texturefile = "gfx/interface/goals/aaw_goal_airbase_expansion.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_shut_down_new_deal"
+		texturefile = "gfx/interface/goals/aaw_goal_shut_down_new_deal.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_soldier1"
+		texturefile = "gfx/interface/goals/aaw_goal_soldier1.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_soldier2"
+		texturefile = "gfx/interface/goals/aaw_goal_soldier2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_soldier3"
+		texturefile = "gfx/interface/goals/aaw_goal_soldier3.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_worker1"
+		texturefile = "gfx/interface/goals/aaw_goal_worker1.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_90_division_gamble"
+		texturefile = "gfx/interface/goals/aaw_goal_90_division_gamble.dds"
+	}			
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_victory_program"
+		texturefile = "gfx/interface/goals/aaw_goal_victory_program.dds"
+	}			
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_the_homefront"
+		texturefile = "gfx/interface/goals/aaw_goal_the_homefront.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_office_of_strategic_services"
+		texturefile = "gfx/interface/goals/aaw_goal_office_of_strategic_services.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_white_house"
+		texturefile = "gfx/interface/goals/aaw_goal_white_house.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_americas_rebirth"
+		texturefile = "gfx/interface/goals/aaw_goal_americas_rebirth.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_america_first"
+		texturefile = "gfx/interface/goals/aaw_goal_america_first.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_suspend_the_persecution"
+		texturefile = "gfx/interface/goals/aaw_goal_suspend_the_persecution.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_industrial_revitalization"
+		texturefile = "gfx/interface/goals/aaw_goal_industrial_revitalization.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_manifest_destiny"
+		texturefile = "gfx/interface/goals/aaw_goal_manifest_destiny.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_war_power_act"
+		texturefile = "gfx/interface/goals/aaw_goal_war_power_act.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_reestablish_the_gold_standard"
+		texturefile = "gfx/interface/goals/aaw_goal_reestablish_the_gold_standard.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_continue_the_new_deal"
+		texturefile = "gfx/interface/goals/aaw_goal_continue_the_new_deal.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_american_democracy"
+		texturefile = "gfx/interface/goals/aaw_goal_american_democracy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_eliminate_the_southern_threat"
+		texturefile = "gfx/interface/goals/aaw_goal_eliminate_the_southern_threat.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_american_isolationism"
+		texturefile = "gfx/interface/goals/aaw_goal_american_isolationism.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_agricultural_adjustment_act"
+		texturefile = "gfx/interface/goals/aaw_goal_agricultural_adjustment_act.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_fair_labor_standards_act"
+		texturefile = "gfx/interface/goals/aaw_goal_fair_labor_standards_act.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_federal_housing_act"
+		texturefile = "gfx/interface/goals/aaw_goal_federal_housing_act.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_radio_liberty"
+		texturefile = "gfx/interface/goals/aaw_goal_radio_liberty.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_the_new_commander_in_chief"
+		texturefile = "gfx/interface/goals/aaw_goal_the_new_commander_in_chief.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_rally_the_army"
+		texturefile = "gfx/interface/goals/aaw_goal_rally_the_army.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_declare_martial_law"
+		texturefile = "gfx/interface/goals/aaw_goal_declare_martial_law.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_abolish_congress"
+		texturefile = "gfx/interface/goals/aaw_goal_abolish_congress.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_puppet_congress"
+		texturefile = "gfx/interface/goals/aaw_goal_puppet_congress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_aaw_goal_wrenches_for_rifles_program"
+		texturefile = "gfx/interface/goals/aaw_goal_wrenches_for_rifles_program.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_activate_the_national_guard"
+		texturefile = "gfx/interface/goals/aaw_goal_activate_the_national_guard.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_the_canadian_corridor"
+		texturefile = "gfx/interface/goals/aaw_goal_the_canadian_corridor.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_focus_aaw_goal_spreading_the_revolution_south"
+		texturefile = "gfx/interface/goals/aaw_goal_spreading_the_revolution_south.dds"
+	}
+	
+}

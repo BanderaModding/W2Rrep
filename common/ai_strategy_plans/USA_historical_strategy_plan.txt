@@ -1,0 +1,177 @@
+USA_historical_plan = {
+	name = "US historical plan"
+	desc = "Historical behavior for US"
+
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				OR = {
+					not = { has_dlc = "Man the Guns" }
+					has_game_rule = {
+						rule = USA_ai_behavior
+						option = DEFAULT
+					}
+				}
+			}
+			has_country_flag = USA_AI_DEMOCRATIC_HISTORICAL
+			has_country_flag = democratic_usa_won_civil_war
+			has_game_rule = {
+				rule = USA_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+		}
+	}
+	abort = {
+		OR = {
+			AND = {
+				has_game_rule = {
+					rule = USA_ai_behavior
+					option = DEFAULT
+				}
+				OR = {	
+					GER = {
+						OR = {
+							has_completed_focus = GER_oppose_hitler_ww
+							has_completed_focus = GER_oppose_hitler
+						}
+					}
+					ENG = {
+						not = { has_government = democratic }
+					}
+					has_war_with = CAN
+					has_war_with = MEX
+					JAP = {
+						not = {
+							OR = {
+								has_government = fascism
+								has_government = neutrality
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	ai_national_focuses = {
+	    AAW_USA_american_democracy
+		AAW_USA_continue_the_new_deal
+		AAW_USA_wpa
+		AAW_USA_agricultural_adjustment_act
+		AAW_USA_fair_labour_standards_act
+		AAW_USA_federal_housing_act
+		AAW_USA_infrastructure_expansion
+		USA_war_department
+		AAW_USA_army_reform
+		AAW_USA_lessons_from_the_great_war
+		AAW_USA_neutrality_act
+        AAW_USA_finish_hoover_dam
+		AAW_USA_office_of_scientific_research_and_development
+		AAW_USA_arsenal_of_democracy
+		AAW_USA_the_giant_wakes
+		AAW_USA_rubber_reserve_company
+		
+		USA_two_ocean_navy_act
+		AAW_USA_bureau_of_ships
+		
+		AAW_USA_air_reform
+		AAW_USA_fighter
+		AAW_USA_strategic_bombing
+		
+		AAW_USA_expand_war_colleges
+		AAW_USA_joint_chiefs_of_staff
+		AAW_USA_office_of_strategic_services
+		AAW_USA_scientist_haven
+		AAW_USA_military_construction
+		AAW_USA_USACE_projects
+		
+		AAW_USA_lend_lease_act
+		USA_lend_lease_sov
+		
+		AAW_USA_build_the_pentagon
+		AAW_USA_armed_forces_of_the_united_states
+		
+		AAW_USA_military_construction
+		AAW_USA_two_ocean_navy_act
+		AAW_USA_selective_training_act
+		AAW_USA_wartime_industry
+		#1941
+		AAW_USA_fund_the_navy
+		AAW_USA_maritime_commission
+		AAW_USA_liberty_ships
+		AAW_USA_carrier_primacy
+		AAW_USA_louisiana_maneuvers_phase_two
+		AAW_USA_artillery_field_exercises
+		AAW_USA_support_rock_island
+		AAW_USA_flexible_support
+		
+		AAW_USA_war_plans_division
+		AAW_USA_intervention_in_europe
+		AAW_USA_war_plan_black
+		AAW_USA_destroyers_for_bases
+		
+		AAW_USA_intervention_in_asia
+		AAW_USA_war_plan_orange
+		#1942
+		AAW_USA_manhattan_project
+		
+		AAW_USA_tank_experiments
+		AAW_USA_tank_destroyer_doctrine
+		AAW_USA_main_battle_tanks
+		AAW_USA_armored_infantry
+		
+		AAW_USA_carrier_task_force_training
+		AAW_USA_naval_aviation_schools
+		AAW_USA_escort_effort
+		
+		AAW_USA_combined_bomber_offensive
+		AAW_USA_us_air_force
+		#1943
+		
+		AAW_USA_womens_armed_service_integration_act
+		AAW_USA_victory_program
+	}
+
+	focus_factors = {
+		AAW_USA_suspend_the_presecution = 0 # well done, not medium rare
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		war_industrialist = 5
+		financial_expert = 10
+		silent_workhorse = 25
+	}
+
+	ai_strategy = {
+		type = support
+		id = "ENG"			
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "SOV"			
+		value = 200
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

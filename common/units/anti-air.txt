@@ -1,0 +1,50 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+
+	anti_air = {
+		abbreviation = "AA"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_support_battalions
+			category_army
+			category_anti_air
+		}
+
+		regimental = no
+		combat_width = 0
+		training_time = 120
+
+		need = {
+			anti_air_equipment = 12
+		}
+
+		can_be_parachuted = yes
+		
+		#Size Definitions
+		max_strength = 15
+		max_organisation = 0
+		default_morale = 0.1
+		manpower = 400
+		weight = 0.1
+		
+        supply_consumption = 0.1
+
+
+	}
+}

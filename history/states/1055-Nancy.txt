@@ -1,0 +1,25 @@
+state={
+	id=1055
+	name="STATE_1055"
+	resources={
+		steel=7.000
+	}
+	provinces={
+		521 11516 
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = FRA
+
+	}
+	manpower=235701
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

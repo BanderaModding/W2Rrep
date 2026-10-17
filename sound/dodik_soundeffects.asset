@@ -1,0 +1,29 @@
+soundeffect = {
+	name = "total_war_speech"
+	volume = 1.0
+	sounds = {
+		sound = "ger_speech_1"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = "ger_speech_siemens"
+	volume = 1.0
+	sounds = {
+		sound = "ger_speech_2"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = "ger_speech_losing"
+	volume = 1.0
+	sounds = {
+		sound = "ger_speech_3"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}

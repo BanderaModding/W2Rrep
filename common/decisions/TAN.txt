@@ -1,0 +1,25 @@
+political_actions = {
+	TAN_join_ussr = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = TAN
+			date > 1944.10.10
+		}
+		visible = {
+			original_tag = TAN
+			date > 1944.10.10
+		}
+		cost = 1
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = { 
+			TAN = {
+				country_event = { id = soviet.14 days = 2 }
+			}
+		}
+	}
+}	

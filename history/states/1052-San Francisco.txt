@@ -1,0 +1,33 @@
+state={
+	id=1052
+	name="STATE_1052"
+	provinces={
+		610 677 710 766 768 781 1601 3588 3644 3677 3678 4331 6482 6665 6681 6694 6699 6745 6757 6772 9637 9671 9697 9713 9730 10159 11658 11698 
+	}
+	resources={
+		oil=20.000
+		aluminium=8.000
+	}
+	manpower=2530189
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 4
+			9671 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			9671 25 
+		}
+	}
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

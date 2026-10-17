@@ -1,0 +1,229 @@
+#	Example:
+#
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#       attacker_modifier = no  # if yes this modifier will also be read in combat for
+#                               # people engaging in the combat even if not in the state
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states or unit leaders
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+
+
+############### UNITED STATES ##################
+
+AAW_USA_growing_nationalism = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_fascism_drift_bonus
+	fascism_drift = USA_growing_nationalism_fascism_drift
+	conscription_factor = USA_growing_nationalism_recruitable_population_factor
+	stability_factor = USA_growing_nationalism_stability_factor
+	war_support_factor = USA_growing_nationalism_war_support_factor
+	democratic_drift = USA_growing_nationalism_democratic_drift
+	political_power_factor = USA_growing_nationalism_political_power_factor
+}
+
+AAW_USA_growing_communism = {
+	enable = { always = yes }
+	icon = GFX_idea_generic_communism_drift_bonus
+	communism_drift = USA_growing_communism_communism_drift
+	conscription_factor = USA_growing_communism_recruitable_population_factor
+	stability_factor = USA_growing_communism_stability_factor
+	war_support_factor = USA_growing_communism_war_support_factor
+	democratic_drift = USA_growing_communism_democratic_drift
+	political_power_factor = USA_growing_communism_political_power_factor
+}
+
+AAW_USA_us_army_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_aaw_idea_us_army
+	experience_gain_army_factor = USA_army_modifier_experience_gain_army_factor
+	experience_gain_army = USA_army_modifier_experience_gain_army
+	army_org_factor = USA_army_modifier_army_org_factor
+	army_core_defence_factor = USA_army_modifier_army_core_defence_factor
+	army_armor_defence_factor = USA_army_modifier_army_armor_defence_factor
+	army_armor_attack_factor = USA_army_modifier_army_armor_attack_factor
+	initiative_factor = USA_army_modifier_initiative_factor
+	army_fuel_consumption_factor = USA_army_modifier_army_fuel_consumption_factor
+	coordination_bonus = USA_army_modifier_coordination_bonus
+	air_superiority_bonus_in_combat = USA_army_modifier_air_superiority_bonus_in_combat
+	max_dig_in_factor = USA_army_modifier_max_dig_in_factor
+	motorized_attack_factor = USA_army_modifier_motorized_attack_factor
+	mechanized_attack_factor = USA_army_modifier_mechanized_attack_factor
+	army_infantry_attack_factor = USA_army_modifier_army_infantry_attack_factor
+	army_attack_speed_factor = USA_army_modifier_army_attack_speed_factor
+	army_artillery_attack_factor = USA_army_modifier_army_artillery_attack_factor
+	army_artillery_defence_factor = USA_army_modifier_army_artillery_defence_factor
+	conscription_factor = USA_army_modifier_conscription_factor
+	training_time_factor = USA_army_modifier_training_time_factor
+	conscription = USA_army_modifier_conscription
+	army_morale_factor = USA_army_modifier_army_morale_factor
+	army_defence_factor = USA_army_modifier_army_defence_factor
+	army_attack_factor = USA_army_modifier_army_attack_factor
+	org_loss_when_moving = USA_army_modifier_org_loss_when_moving
+	planning_speed = USA_army_modifier_planning_speed
+	supply_consumption_factor = USA_army_modifier_supply_consumption_factor
+	production_speed_supply_node_factor = USA_modifier_production_speed_supply_node_factor
+	production_speed_arms_factory_factor = USA_modifier_production_speed_arms_factory_factor
+	production_speed_anti_air_building_factor = USA_modifier_production_speed_anti_air_building_factor
+	production_speed_rail_way_factor = USA_modifier_production_speed_rail_way_factor
+	industrial_capacity_factory = USA_modifier_industrial_capacity_factory
+	special_forces_cap = USA_army_modifier_special_forces_cap
+	special_forces_out_of_supply_factor = USA_army_modifier_special_forces_out_of_supply_factor
+	max_command_power_mult = USA_army_modifier_max_command_power_mult
+	command_power_gain_mult = USA_army_modifier_command_power_gain_mult
+	acclimatization_cold_climate_gain_factor = USA_army_modifier_acclimatization_cold_climate_gain_factor
+	acclimatization_hot_climate_gain_factor = USA_army_modifier_acclimatization_hot_climate_gain_factor
+	breakthrough_factor = USA_army_modifier_breakthrough_factor
+	max_planning_factor = USA_army_modifier_max_planning_factor
+	supply_node_range = USA_army_modifier_supply_node_range
+}
+
+AAW_USA_us_navy_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_aaw_idea_us_navy
+	experience_gain_navy = USA_navy_modifier_experience_gain_navy_factor 
+	mines_planting_by_fleets_factor = USA_navy_modifier_mines_planting_by_fleets_factor
+	navy_anti_air_attack_factor = USA_navy_modifier_navy_anti_air_attack_factor
+	navy_spirit_category_type_cost_factor = USA_navy_modifier_navy_spirit_category_type_cost_factor
+	convoy_retreat_speed = USA_navy_modifier_convoy_retreat_speed
+	refit_speed = USA_navy_modifier_refit_speed
+	spotting_chance = USA_navy_modifier_spotting_chance
+	repair_speed_factor = USA_navy_modifier_repair_speed_factor
+	production_speed_dockyard_factor = USA_navy_modifier_production_speed_dockyard_factor
+	industrial_capacity_dockyard = USA_navy_modifier_industrial_capacity_dockyard
+	extra_marine_supply_grace = USA_navy_modifier_extra_marine_supply_grace
+	naval_invasion_capacity = USA_navy_modifier_naval_invasion_capacity
+	naval_mines_effect_reduction = USA_navy_modifier_naval_mines_effect_reduction
+	experience_gain_navy_unit_factor = USA_navy_modifier_experience_gain_navy_unit_factor
+	naval_coordination = USA_navy_modifier_naval_coordination
+	naval_equipment_upgrade_xp_cost = USA_navy_modifier_naval_equipment_upgrade_xp_cost
+	naval_morale_factor = USA_navy_modifier_naval_morale_factor
+	screening_efficiency =	USA_navy_modifier_screening_efficiency
+	convoy_escort_efficiency =	USA_navy_modifier_convoy_escort_efficiency		
+	navy_capital_ship_defence_factor =	USA_navy_modifier_capital_ship_defence_factor  
+	naval_accidents_chance = USA_navy_modifier_naval_accidents_chance
+	navy_screen_defence_factor = USA_navy_modifier_screen_defence_factor
+	production_speed_coastal_bunker_factor = USA_navy_modifier_production_speed_coastal_bunker_factor
+	screening_without_screens = USA_navy_modifier_screening_without_screens
+	navy_max_range_factor = USA_navy_modifier_navy_max_range_factor
+	convoy_raiding_efficiency_factor = USA_navy_modifier_convoy_raiding_efficiency_factor
+	naval_light_gun_hit_chance_factor = USA_navy_modifier_naval_light_gun_hit_chance_factor
+	naval_hit_chance = USA_navy_modifier_naval_hit_chance
+	naval_defense_factor = USA_navy_modifier_naval_defense_factor
+	naval_heavy_gun_hit_chance_factor = USA_navy_modifier_naval_heavy_gun_hit_chance_factor
+	naval_strike_targetting_factor = USA_navy_modifier_naval_strike_targetting_factor
+}
+
+AAW_USA_us_army_air_forces_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_aaw_idea_usaac
+	air_doctrine_cost_factor =  USA_air_force_modifier_air_doctrine_cost_factor
+	air_ace_generation_chance_factor = USA_air_force_modifier_air_ace_generation_chance_factor
+	air_range_factor = USA_air_force_modifier_air_range_factor
+	air_superiority_efficiency = USA_air_force_modifier_air_superiority_efficiency
+	air_intercept_efficiency = USA_air_force_modifier_air_intercept_efficiency
+	air_mission_xp_gain_factor = USA_air_force_modifier_air_mission_xp_gain_factor
+	air_agility_factor = USA_air_force_modifier_air_agility_factor
+	ground_attack_factor = USA_air_force_modifier_ground_attack_factor
+	experience_gain_air = USA_air_force_modifier_experience_gain_air
+	industrial_capacity_factory = USA_modifier_industrial_capacity_factory_airforce
+	conscription_factor = USA_air_force_modifier_conscription_factor
+	air_strategic_bomber_bombing_factor = USA_air_force_modifier_air_strategic_bomber_bombing_factor
+	air_cas_present_factor = USA_air_force_modifier_air_cas_present_factor
+	air_defence_factor = USA_air_force_modifier_air_defence_factor
+	air_nav_efficiency = USA_air_force_modifier_nav_efficiency
+	air_cas_efficiency = USA_air_force_modifier_cas_efficiency
+	air_accidents_factor = USA_air_force_modifier_accidents_factor
+	air_fuel_consumption_factor = USA_air_force_modifier_fuel_consumption_factor
+	air_mission_efficiency = USA_air_force_modifier_air_mission_efficiency
+	air_training_xp_gain_factor = USA_air_force_modifier_air_training_xp_gain_factor
+}
+
+AAW_USA_us_air_force_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_aaw_idea_usaaf
+	air_doctrine_cost_factor =  USA_air_force_modifier_air_doctrine_cost_factor
+	air_ace_generation_chance_factor = USA_air_force_modifier_air_ace_generation_chance_factor
+	air_range_factor = USA_air_force_modifier_air_range_factor
+	air_superiority_efficiency = USA_air_force_modifier_air_superiority_efficiency
+	air_intercept_efficiency = USA_air_force_modifier_air_intercept_efficiency
+	air_mission_xp_gain_factor = USA_air_force_modifier_air_mission_xp_gain_factor
+	air_agility_factor = USA_air_force_modifier_air_agility_factor
+	ground_attack_factor = USA_air_force_modifier_ground_attack_factor
+	experience_gain_air = USA_air_force_modifier_experience_gain_air
+	industrial_capacity_factory = USA_modifier_industrial_capacity_factory_airforce
+	conscription_factor = USA_air_force_modifier_conscription_factor
+	air_strategic_bomber_bombing_factor = USA_air_force_modifier_air_strategic_bomber_bombing_factor
+	air_cas_present_factor = USA_air_force_modifier_air_cas_present_factor
+	air_defence_factor = USA_air_force_modifier_air_defence_factor
+	air_nav_efficiency = USA_air_force_modifier_nav_efficiency
+	air_cas_efficiency = USA_air_force_modifier_cas_efficiency
+	air_accidents_factor = USA_air_force_modifier_accidents_factor
+	air_fuel_consumption_factor = USA_air_force_modifier_fuel_consumption_factor
+	air_mission_efficiency = USA_air_force_modifier_air_mission_efficiency
+	air_training_xp_gain_factor = USA_air_force_modifier_air_training_xp_gain_factor
+}
+
+AAW_USA_oss_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_office_of_strategic_services
+	
+	# Basic
+	master_ideology_drift = USA_military_intelligence_service_master_ideology_drift
+	consumer_goods_factor = USA_military_intelligence_service_consumer_goods_factor
+
+	# LaR
+	operative_slot = USA_military_intelligence_service_operative_slot
+	agency_upgrade_time = USA_military_intelligence_service_agency_upgrade_time
+	intelligence_agency_defense = USA_military_intelligence_service_intelligence_agency_defense
+	boost_ideology_mission_factor = USA_military_intelligence_service_boost_ideology_mission_factor
+	decryption_power_factor = USA_military_intelligence_service_decryption_power
+	intel_network_gain_factor = USA_military_intelligence_service_intel_network_gain_factor
+	root_out_resistance_effectiveness_factor = USA_military_intelligence_root_out_resistance_effectiveness_factor
+
+	# NO LaR
+	encryption_factor = USA_military_intelligence_service_encryption_factor
+	decryption_factor = USA_military_intelligence_service_decryption_factor
+	subversive_activites_upkeep = USA_military_intelligence_service_subversive_activites_upkeep
+	
+}
+
+AAW_USA_rab_focus = {
+	enable = { always = yes }
+	icon = GFX_idea_aaw_idea_oss_rab	
+	special_project_speed_factor = USA_wonder_weapons_special_project_speed_factor
+	production_speed_facility_factor = USA_wonder_weapons_production_speed_facility_factor
+	sp_air_helicopter_speed_factor = USA_wonder_weapons_sp_air_helicopter_speed_factor
+	sp_tag_jet_speed_factor = USA_wonder_weapons_sp_tag_jet_speed_factor
+	sp_tag_rocket_speed_factor = USA_wonder_weapons_sp_tag_rocket_speed_factor
+	sp_tag_tank_speed_factor = USA_wonder_weapons_sp_tag_tank_speed_factor
+	sp_tag_artillery_speed_factor = USA_wonder_weapons_sp_tag_artillery_speed_factor
+	sp_tag_submarine_speed_factor = USA_wonder_weapons_sp_tag_submarine_speed_factor
+	sp_naval_modern_battleship_speed_factor = USA_wonder_weapons_sp_naval_modern_battleship_speed_factor
+	sp_naval_modern_carrier_speed_factor = USA_wonder_weapons_sp_naval_modern_carrier_speed_factor
+	sp_commercial_nuclear_reactor_speed_factor = USA_wonder_weapons_sp_commercial_nuclear_reactor_speed_factor
+	sp_nuclear_warheads_speed_factor = USA_wonder_weapons_sp_nuclear_warheads_speed_factor
+	sp_nuclear_bomb_speed_factor = USA_wonder_weapons_sp_nuclear_bomb_speed_factor
+	production_speed_nuclear_reactor_factor = USA_wonder_weapons_production_speed_nuclear_reactor_factor
+	production_speed_nuclear_facility_factor = USA_wonder_weapons_production_speed_nuclear_facility_factor
+	sp_air_intercontinental_bomber_speed_factor = USA_wonder_weapons_sp_air_intercontinental_bomber_speed_factor
+	sp_air_mothership_aircraft_speed_factor = USA_wonder_weapons_sp_air_mothership_aircraft_speed_factor
+}

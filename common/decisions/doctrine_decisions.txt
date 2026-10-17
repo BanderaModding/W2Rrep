@@ -1,0 +1,229 @@
+doctrine_efforts = {
+
+	land_doctrine_efforts = {
+		icon = generic_research
+
+		allowed = {
+			always = yes
+		}
+		
+		days_remove = 180
+		
+		available = {
+			OR = {
+				has_war = yes
+				threat > 0.20
+			}
+			num_divisions > 12
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+		visible = {
+            
+		}
+		ai_hint_pp_cost = 5
+		
+		custom_cost_trigger = {
+			has_political_power > 4
+			command_power > 4
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		custom_cost_text = decision_cost_CP_5_pp_5
+
+		modifier = {
+			experience_gain_army = -0.15
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -5
+				add_command_power = -5
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = land
+				track = infantry					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = land
+				track = combat_support					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = land
+				track = armor					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = land
+				track = operations					
+			}
+		}
+	}
+	
+	naval_doctrine_efforts = {
+		icon = generic_research
+
+		allowed = {
+			always = yes
+		}
+		
+		days_remove = 180
+		
+		available = {
+			OR = {
+				has_war = yes
+				threat > 0.20
+			}
+			has_navy_size = {
+				size > 4
+				type = capital_ship
+			}
+		}
+		visible = {
+            
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		ai_hint_pp_cost = 5
+		
+		custom_cost_trigger = {
+			has_political_power > 4
+			command_power > 4
+		}
+		
+		custom_cost_text = decision_cost_CP_5_pp_5
+
+		modifier = {
+			experience_gain_navy = -0.15
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -5
+				add_command_power = -5
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = naval
+				track = capital_ships					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = naval
+				track = carriers					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = naval
+				track = screens					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = naval
+				track = submarines					
+			}
+		}
+	}
+	
+	air_doctrine_efforts = {
+		icon = generic_research
+
+		allowed = {
+			always = yes
+		}
+		
+		days_remove = 180
+		
+		available = {
+			OR = {
+				has_war = yes
+				threat > 0.20
+			}
+			has_deployed_air_force_size = {
+				size > 199
+			}
+		}
+		visible = {
+            
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+		
+		ai_hint_pp_cost = 5
+		
+		custom_cost_trigger = {
+			has_political_power > 4
+			command_power > 4
+		}
+		
+		custom_cost_text = decision_cost_CP_5_pp_5
+
+		modifier = {
+			experience_gain_air = -0.15
+		}
+		
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -5
+				add_command_power = -5
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = air
+				track = fighter_aircraft					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = air
+				track = strike_aircraft					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = air
+				track = medium_aircraft					
+			}
+			add_daily_mastery = {
+				amount = 0.2
+				days = 180	
+				name =  doctrine_efforts
+				folder = air
+				track = heavy_aircraft					
+			}
+		}
+	}
+
+}

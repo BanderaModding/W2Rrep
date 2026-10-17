@@ -1,0 +1,36 @@
+state={
+	id=1064
+	name="STATE_1064"
+	provinces={
+		6909 9832 9847 9850 11830 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6732 20 
+		}
+		
+		victory_points = {
+			9832 1 
+		}
+
+	}
+	
+	manpower=1404030
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

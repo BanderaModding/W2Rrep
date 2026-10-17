@@ -1,0 +1,12 @@
+state_categories={
+	wasteland = {
+		local_building_slots = 0
+		
+		buildings_max_level = {
+			air_base = 5
+		}
+	
+		color = { 40 40 40 }
+
+	}
+}

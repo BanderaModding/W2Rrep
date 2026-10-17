@@ -1,0 +1,73 @@
+commonwealth_let_raj_defend_itself = {
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = SAF
+		}	
+	}
+
+	enable = {
+		#OR = {
+			#is_historical_focus_on = yes
+			#RAJ = {
+			#	is_ai = no #players are usually better at defending themselves
+			#}
+		#}
+		is_in_faction_with = RAJ
+		RAJ = {
+			has_war_with = JAP
+			is_in_faction_with = ENG
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers
+		# burmese states
+		states = {
+			288
+			640
+			430
+			997
+			999
+			993
+			994
+			995
+			996
+		}
+		ratio = 0.05
+		area = burma
+		subtract_invasions_from_need = no
+		subtract_fronts_from_need = no
+	}
+	ai_strategy = {
+		type = front_unit_request
+
+		area = india
+		value = 300
+	}
+	ai_strategy = {
+		type = area_priority
+
+		area = india
+		value = 300
+	}
+	ai_strategy = {
+		type = front_control
+		tag = JAP
+		ordertype = front
+		execution_type = careful
+		manual_attack = yes
+		execute_order = no
+	}
+	ai_strategy = {
+		type = front_control
+		tag = SIA
+		ordertype = front
+		execution_type = careful
+		manual_attack = yes
+		execute_order = no
+	}
+}
+

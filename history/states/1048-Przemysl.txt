@@ -1,0 +1,19 @@
+state={
+	id=1048
+	name="STATE_1048"
+	history={
+		owner = POL
+		add_core_of = POL
+		
+		buildings = {
+			infrastructure = 2 
+		}
+	}
+	provinces={
+		3434 13413
+	}
+	manpower=9321
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=pastoral
+}

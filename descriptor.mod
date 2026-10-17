@@ -1,0 +1,18 @@
+version="1"
+tags={
+	"Military"
+	"Map"
+	"National Focuses"
+	"Historical"
+	"Gameplay"
+	"Events"
+	"Balance"
+}
+name="WW2 Reworked"
+replace_path="map/definition"
+replace_path="map/provinces"
+replace_path="map/rivers"
+replace_path="map/strategicregions"
+replace_path="history/states"
+supported_version="1.19.3.0"
+remote_file_id="3184942994"

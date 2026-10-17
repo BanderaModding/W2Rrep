@@ -1,0 +1,5 @@
+﻿l_russian:
+ modifier_army_sub_unit_ss_attack_factor: "Атака СС"
+ modifier_army_sub_unit_ss_defence_factor: "Защита СС"
+ modifier_army_sub_unit_ss_max_org_factor: "Организация СС"
+ modifier_army_sub_unit_ss_speed_factor: "Скорость СС"

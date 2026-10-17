@@ -1,0 +1,35 @@
+state={
+	id=1062
+	name="STATE_1062"
+	
+	state_category = large_city
+	
+	resources={
+		oil=140 
+		aluminium=30 
+	}
+	
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 5
+			air_base = 2
+			6785 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			12782 1 
+		}
+
+	}
+	provinces={
+		1915 1927 1954 1998 2019 2042 2055 3875 3972 4884 4955 5038 5061 6785 6798 6987 7836 8064 9773 9908 10740 10894 12301 12369 12728 12782 12848 12875 12893 
+	}
+	manpower=1856982
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

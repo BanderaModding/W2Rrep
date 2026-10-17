@@ -1,0 +1,63 @@
+political_actions = {
+	MON_genghis_khan_legacy = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = MON
+		}
+		visible = {
+			original_tag = MON
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_war_support = 0.1
+			add_ideas = genghis_khan_legacy
+			329 = { add_core_of = MON }
+			621 = { add_core_of = MON }
+			612 = { add_core_of = MON }
+			654 = { add_core_of = MON }
+			756 = { add_core_of = MON }
+			761 = { add_core_of = MON }
+		}
+	}
+	MON_upa = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = MON
+			date > 1942.12.1
+		}
+		visible = {
+			original_tag = MON
+			date > 1942.12.1
+		}
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = { 
+			1017 = { #shanghai
+				add_dynamic_modifier = { modifier = UPA_activity }
+			}
+			89 = { #pekin
+				add_dynamic_modifier = { modifier = UPA_activity }
+			}
+			91 = { #hebei
+				add_dynamic_modifier = { modifier = UPA_activity }
+			}
+			93 = { #shangdong
+				add_dynamic_modifier = { modifier = UPA_activity }
+			}
+			199 = { #shangdong
+				add_dynamic_modifier = { modifier = UPA_activity }
+			}
+		}
+	}
+}

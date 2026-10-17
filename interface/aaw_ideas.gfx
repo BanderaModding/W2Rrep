@@ -1,0 +1,183 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_usaaf"
+		texturefile = "gfx/interface/ideas/aaw_idea_usaaf.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_usaac"
+		texturefile = "gfx/interface/ideas/aaw_idea_usaac.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_asw_effort"
+		texturefile = "gfx/interface/ideas/aaw_idea_asw_effort.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_defense_logistics_board"
+		texturefile = "gfx/interface/ideas/aaw_idea_defense_logistics_board.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_floating_fortress"
+		texturefile = "gfx/interface/ideas/aaw_idea_floating_fortress.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_flying_fortress"
+		texturefile = "gfx/interface/ideas/aaw_idea_flying_fortress.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_naval_aviation"
+		texturefile = "gfx/interface/ideas/aaw_idea_naval_aviation.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_the_pentagon"
+		texturefile = "gfx/interface/ideas/aaw_idea_the_pentagon.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_officer2"
+		texturefile = "gfx/interface/ideas/aaw_idea_officer2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_officer3"
+		texturefile = "gfx/interface/ideas/aaw_idea_officer3.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_american_arms_industry"
+		texturefile = "gfx/interface/ideas/aaw_idea_american_arms_industry.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_highway1"
+		texturefile = "gfx/interface/ideas/aaw_idea_highway1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_farm1"
+		texturefile = "gfx/interface/ideas/aaw_idea_farm1.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_farm2"
+		texturefile = "gfx/interface/ideas/aaw_idea_farm2.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_intervention_in_asia"
+		texturefile = "gfx/interface/ideas/aaw_idea_intervention_in_asia.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_90_division_gamble"
+		texturefile = "gfx/interface/ideas/aaw_idea_90_division_gamble.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_victory_program"
+		texturefile = "gfx/interface/ideas/aaw_idea_victory_program.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_soldier1"
+		texturefile = "gfx/interface/ideas/aaw_idea_soldier1.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_soldier2"
+		texturefile = "gfx/interface/ideas/aaw_idea_soldier2.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_soldier3"
+		texturefile = "gfx/interface/ideas/aaw_idea_soldier3.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_worker1"
+		texturefile = "gfx/interface/ideas/aaw_idea_worker1.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_shut_down_new_deal"
+		texturefile = "gfx/interface/ideas/aaw_idea_shut_down_new_deal.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_the_homefront"
+		texturefile = "gfx/interface/ideas/aaw_idea_the_homefront.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_northrop"
+		texturefile = "gfx/interface/ideas/aaw_idea_northrop.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_slow_economic_recovery"
+		texturefile = "gfx/interface/ideas/aaw_idea_slow_economic_recovery.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_great_depression"
+		texturefile = "gfx/interface/ideas/aaw_idea_great_depression.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_american_locomotive_company"
+		texturefile = "gfx/interface/ideas/aaw_idea_american_locomotive_company.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_caterpillar"
+		texturefile = "gfx/interface/ideas/aaw_idea_caterpillar.dds"
+	}			
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_mare_island_naval_shipyard"
+		texturefile = "gfx/interface/ideas/aaw_idea_mare_island_naval_shipyard.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_american_car_and_foundry"
+		texturefile = "gfx/interface/ideas/aaw_idea_american_car_and_foundry.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_curtiss_wright"
+		texturefile = "gfx/interface/ideas/aaw_idea_curtiss_wright.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_aaw_idea_western_cartridge_company"
+		texturefile = "gfx/interface/ideas/aaw_idea_western_cartridge_company.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_us_army"
+		texturefile = "gfx/interface/ideas/aaw_idea_us_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_us_navy"
+		texturefile = "gfx/interface/ideas/aaw_idea_us_navy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_oss"
+		texturefile = "gfx/interface/ideas/aaw_idea_oss.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aaw_idea_oss_rab"
+		texturefile = "gfx/interface/ideas/aaw_idea_oss_rab.dds"
+	}
+	
+}

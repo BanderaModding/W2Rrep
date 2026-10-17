@@ -1,0 +1,23 @@
+political_actions = {
+    MAD_amazing_madagascar = {
+		icon = generic_operation
+		allowed = {
+			always = yes
+		}
+		available = {
+			original_tag = MAD
+		}
+		visible = {
+			original_tag = MAD
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+		fire_only_once = yes
+		complete_effect = {
+			navy_experience = 250
+			army_experience = 75
+	  	}
+	}
+}/

@@ -1,0 +1,212 @@
+s_america_limit = {
+	enable = {
+		is_historical_focus_on = yes
+		num_divisions > 25
+		OR = {
+			original_tag = BRA
+			original_tag = PER
+			original_tag = PRU
+			original_tag = BOL
+			original_tag = ARG
+			original_tag = COL
+			original_tag = ECU
+			original_tag = VEN
+			original_tag = PAR
+			original_tag = URG
+		}
+	}
+	abort_when_not_enabled = yes
+
+	# Land division factors
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = ai_wanted_divisions_factor
+		value = -1000
+	}
+}
+
+mexico_limit = {
+	enable = {
+		num_divisions > 30
+		original_tag = MEX
+	}
+	abort_when_not_enabled = yes
+
+	# Land division factors
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = ai_wanted_divisions_factor
+		value = -1000
+	}
+}
+
+POR_limit = {
+	enable = {
+	    is_historical_focus_on = yes
+		num_divisions > 20
+		original_tag = POR
+	}
+	abort_when_not_enabled = yes
+
+	# Land division factors
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = ai_wanted_divisions_factor
+		value = -1000
+	}
+}
+
+SPA_limit = {
+	enable = {
+	    date > 1939.1.1
+	    is_historical_focus_on = yes
+		num_divisions > 50
+		original_tag = SPA
+	}
+	abort_when_not_enabled = yes
+
+	# Land division factors
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = ai_wanted_divisions_factor
+		value = -1000
+	}
+}
+
+spain_blue = {
+	allowed = {
+		original_tag = SPR
+		has_dlc = "La Resistance"
+	}
+	enable = {
+		has_government = fascism
+		country_exists = GER
+	}
+	abort = {
+		GER = {
+			has_capitulated = yes
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SPA
+		value = 100
+	}
+}

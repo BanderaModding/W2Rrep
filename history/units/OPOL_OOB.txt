@@ -1,0 +1,228 @@
+﻿division_template = {
+	            name = "Strelkovaya Diviziya Narodnogo Opolchenia"
+				
+	            division_names_group = SOV_Inf_01
+
+	            regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+					militia = { x = 2 y = 0 }
+					militia = { x = 2 y = 1 }
+					militia = { x = 2 y = 2 }
+					artillery_brigade = { x = 3 y = 0 }
+					artillery_brigade = { x = 3 y = 1 }
+					artillery_brigade = { x = 3 y = 2 }
+	            }
+	            support = {
+					recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					anti_air = { x = 0 y = 2 }
+					logistics_company = { x = 0 y = 3 }
+					field_hospital = { x = 1 y = 0 }
+					anti_tank = { x = 1 y = 1 }
+		        }
+}
+
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "1ya Strelkovaya Diviziya Narodnogo Opolchenia (Kirovsky Rayon, Leningrad)"
+		location = 3151
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "2ya Strelkovaya Diviziya Narodnogo Opolchenia (Moskovsky Rayon, Leningrad)"
+		location = 3151
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "3ya Strelkovaya Diviziya Narodnogo Opolchenia (Frunzensky Rayon, Leningrad)"
+		location = 3151
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "4ya Strelkovaya Diviziya Narodnogo Opolchenia (Vyborgsky Rayon, Leningrad)"
+		location = 3151
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "5ya Strelkovaya Diviziya Narodnogo Opolchenia (Volodarsky Rayon, Leningrad)"
+		location = 3151
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	
+	division = {
+		name = "6ya Strelkovaya Diviziya Narodnogo Opolchenia (Oktyabrsky Rayon, Leningrad)"
+		location = 13381
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "7ya Strelkovaya Diviziya Narodnogo Opolchenia (Petrogradsky Rayon, Leningrad)"
+		location = 13381
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "8ya Strelkovaya Diviziya Narodnogo Opolchenia (Dzerzhinsky Rayon, Leningrad)"
+		location = 13381
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	
+	division = {
+		name = "9ya Strelkovaya Diviziya Narodnogo Opolchenia (Leninsky Rayon, Leningrad)"
+		location = 13383
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "10ya Strelkovaya Diviziya Narodnogo Opolchenia (Krasnogvardeysky Rayon, Leningrad)"
+		location = 13383
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	
+	division = {
+		name = "Yaroslavskaya Strelkovaya Diviziya Narodnogo Opolchenia"
+		location = 121
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "Saratovskaya Strelkovaya Diviziya Narodnogo Opolchenia"
+		location = 3578
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	
+	division = {
+		name = "1ya Strelkovaya Diviziya Narodnogo Opolchenia (Leninsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "2ya Strelkovaya Diviziya Narodnogo Opolchenia (Stalinsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "4ya Strelkovaya Diviziya Narodnogo Opolchenia (Kuybyshevsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "5ya Strelkovaya Diviziya Narodnogo Opolchenia (Frunzensky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "6ya Strelkovaya Diviziya Narodnogo Opolchenia (Dzerzhinsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "7ya Strelkovaya Diviziya Narodnogo Opolchenia (Baumansky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "8ya Strelkovaya Diviziya Narodnogo Opolchenia (Krasnopresnensky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "9ya Strelkovaya Diviziya Narodnogo Opolchenia (Kirovsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "13ya Strelkovaya Diviziya Narodnogo Opolchenia (Rostokinsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "17ya Strelkovaya Diviziya Narodnogo Opolchenia (Moskvoretsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "18ya Strelkovaya Diviziya Narodnogo Opolchenia (Leningradsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+	division = {
+		name = "21ya Strelkovaya Diviziya Narodnogo Opolchenia (Kievsky Rayon, Moskva)"
+		location = 6380
+		division_template = "Strelkovaya Diviziya Narodnogo Opolchenia"		
+		start_equipment_factor = 0.5
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "SOV" } }
+	}
+}

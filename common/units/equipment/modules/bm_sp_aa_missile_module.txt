@@ -1,0 +1,22 @@
+equipment_modules = {
+	bm_aa_missile_1 = {
+		abbreviation = "amm"
+		category = fighter_weapon
+		gfx = bm_aa_missile_1
+		add_equipment_type = fighter
+
+		xp_cost = 12
+
+		add_stats = {
+			weight = 6
+			air_attack = 28
+		}
+		multiply_stats = {
+			build_cost_ic = 0.20
+		}
+		allow_mission_type = {
+			interception
+			air_superiority
+		}
+	}
+}

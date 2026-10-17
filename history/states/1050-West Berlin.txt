@@ -1,0 +1,27 @@
+state={
+	id=1050
+	name="STATE_1050"
+	manpower = 1913835
+	
+	state_category = city
+	
+	history={
+		owner = GER
+		add_core_of = GER
+		
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			13391 3
+		}
+	}
+	
+	provinces={
+		13390 13391
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

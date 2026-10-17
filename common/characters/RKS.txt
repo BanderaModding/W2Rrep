@@ -1,0 +1,23 @@
+characters = {
+
+	RKS_milan_nedic={
+	
+		country_leader = {
+			ideology = nazism
+			traits = { GER_reichskommissar_trait }
+			expire = "1987.1.1.1"
+			id = -1
+		}
+		
+		name = RKS_milan_nedic
+		
+		portraits={
+			civilian = {
+				large = GFX_portrait_RKS_milan_nedic
+				small = GFX_portrait_RKS_milan_nedic_small
+			}
+		}
+	}
+	
+
+}

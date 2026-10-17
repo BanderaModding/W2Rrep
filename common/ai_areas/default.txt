@@ -1,0 +1,658 @@
+areas = {
+
+	suez = {
+        strategic_regions = {
+            128
+            28
+        }
+    }
+
+    scandinavia = {
+		strategic_regions = {
+            11 # Southern Norway
+            191 # Northern Norway
+            10 # Southern Sweden
+            192 # Lower Norrland
+            276 # Northern Norrland
+            12  # Kola
+            13  # Eastern Finalnd
+            277 # Northern Finland
+            278 # Western Finland
+            #6 # Sorry Denmark, you are apparently part of Germany ¯\_(ツ)_/¯
+        }
+    }
+
+    italy = {
+        strategic_regions = {
+            23 # italy
+            21
+			310
+        }
+    }
+	
+	italyno = {
+        strategic_regions = {
+            20
+			21
+        }
+    }
+
+    sardinia = {
+        strategic_regions = {
+            169
+        }
+    }
+
+	albania = {
+        strategic_regions = {
+            24 # western balkans
+        }
+    }
+
+	greater_balkans = {
+        strategic_regions = {
+            24 # western balkans
+            25 # greece
+            26 # eastern balkans
+        }
+    }
+
+    UK = {
+        strategic_regions = {
+            1 
+            2
+            3
+            4
+        }
+    }
+
+    UK_excluding_ni = { #exclude Northern Ireland
+        strategic_regions = {
+            1 
+            2
+            3
+        }
+    }
+
+    north_africa = {
+        strategic_regions = {
+		    304
+            128 # egypt
+            225 # trippoli
+            126 # east maghreb
+            182 # west maghreb
+        }
+    }
+    torch_landing_zone = {
+    	strategic_regions = {
+    		126 # east maghreb
+			182 # west maghreb
+    	}
+    }
+	
+	france = {
+    	strategic_regions = {
+    		19
+			208
+    	}
+    }
+	
+	france_benelux_ger = {
+    	strategic_regions = {
+    		19
+			208
+			20
+			5
+			6
+			7
+			275
+    	}
+    }
+	
+	ita_help = {
+    	strategic_regions = {
+			21
+			23
+    	}
+    }
+	
+	benelux = {
+    	strategic_regions = {
+    		5
+    	}
+    }
+	
+    vichy_mainland = {
+    	strategic_regions = {
+    		20 # Southern france
+    	}
+    }
+
+	europe = {
+		continents = {
+			europe
+		}
+	}
+	
+	east_europe = {
+        strategic_regions = {
+            208 
+            26
+            27
+            294
+            38
+            22
+            8
+        }
+    }
+	
+	yug = {
+        strategic_regions = {
+            24
+			302
+        }
+    }
+
+    mainland_europe = {
+        strategic_regions = {
+            208 # france
+            19
+            20
+            5 # benelux
+            41 # iberia
+            209
+            210
+            23 # italy
+            21
+            7 # germany
+            6
+            8
+            22 # chechoslovakia
+            38 # poland
+            39
+            37 # baltics
+            27 # balkans
+            24
+            26
+            25 # greece
+        }
+    }
+	east_of_moscow = {
+        strategic_regions = {
+            40
+            150
+            264
+        }
+    }
+	ural_and_siberia = {
+        strategic_regions = {
+            138
+            263
+            151
+			14
+        }
+    }
+	
+	karelia = {
+        strategic_regions = {
+            265
+        }
+    }
+	
+	north_russia = {
+        strategic_regions = {
+            132
+            37
+            19
+        }
+    }
+	belarus_lvov = {
+        strategic_regions = {
+            39
+            131
+            300
+        }
+    }
+	ukraine = {
+        strategic_regions = {
+            307
+            130
+			306
+        }
+    }
+	stalingrad = {
+        strategic_regions = {
+            137
+            135
+        }
+    }
+	moscow = {
+        strategic_regions = {
+            133
+            291
+        }
+    }
+	
+	kursk = {
+        strategic_regions = {
+            308
+        }
+    }
+	
+	pol_ger_cze_hun = {
+        strategic_regions = {
+            8
+            22
+			38
+			303
+			27
+			7
+			26
+			302
+        }
+    }
+	
+	central_asia = {
+        strategic_regions = {
+            270
+			267
+			136
+			268
+			269
+			239
+        }
+    }
+	
+	far_east_sov = {
+    	strategic_regions = {
+    		255
+			148
+			87
+			242
+			243
+			244
+			152
+			256
+			257
+			258
+			186
+			155
+			149
+			266
+			259
+			260
+			261
+			262
+			147
+    	}
+    }
+	
+	indochina = {
+        strategic_regions = {
+            142
+			249
+			292
+			228
+			248
+			295
+			294
+			293
+			229
+			188
+        }
+    }
+	
+	guam = {
+        strategic_regions = {
+            94
+			97
+        }
+    }
+	
+	guadalcanal = {
+        strategic_regions = {
+            83
+        }
+    }
+	
+	papua = {
+        strategic_regions = {
+            167
+        }
+    }
+	
+	india = {
+        strategic_regions = {
+            141
+			290
+			294
+			295`
+			292
+			293
+        }
+    }
+	
+	australia_nz = {
+        strategic_regions = {
+            194
+			195
+			156
+			193
+			157
+        }
+    }
+	
+	north_china = {
+        strategic_regions = {
+            143
+			244
+			155
+			243
+			242
+			186
+        }
+    }
+	
+	china = {
+        strategic_regions = {
+			164
+			247
+			246
+			165
+			248
+			249
+			245
+			144
+			250
+			200
+        }
+    }
+	
+	sinkiang_tibet = {
+        strategic_regions = {
+			146
+			145 
+			252
+        }
+    }
+	
+	japan = {
+        strategic_regions = {
+            154
+			292
+        }
+    }
+	
+	japan_islands = {
+        strategic_regions = {
+            76
+			94
+        }
+    }
+	
+	gua = {
+        strategic_regions = {
+            248
+        }
+    }
+	
+	normandy_landing_zone = {
+        strategic_regions = {
+            208 # france
+            20
+            19 # Calais
+        }
+    }
+
+	north_america = {
+
+		continents = {
+			north_america
+		}
+	}
+
+	south_america = {
+
+		continents = {
+			south_america
+		}
+	}
+
+	africa = {
+
+		continents = {
+			africa
+		}
+	}
+
+	asia = {
+
+		continents = {
+			asia
+		}
+	}
+	
+	east_asia = {
+        strategic_regions = {
+            159
+			187
+			158
+			93
+			167
+			160
+			94
+			97
+        }
+    }
+	
+	atlantic = {
+		strategic_regions = {
+			51
+			57
+			2
+			3
+			4
+			16
+			18
+			43
+			45
+			36
+			161
+		}
+	}
+	
+	malaysia = {
+        strategic_regions = {
+            188
+        }
+    }
+	
+	
+
+	middle_east = {
+
+		continents = {
+			middle_east
+		}
+	}
+
+	pacific = {
+
+		strategic_regions = {
+			105 # Hawaii
+			180 # Micronesian Gap
+			97  # Eastern Micronesia
+			32  # South-Eastern Pacific
+			84  # Bismarck Sea
+			95  # West Emperor Sea
+			94  # Mariana Region
+			177 # Western North Pacific
+			172 # Pacific Line Ridge
+			78  # Phillipine Sea
+			109 # Peruvian Coast
+			160 # Phillipines
+			83  # Solomon Sea
+			167 # New Guinea
+			91  # Arafura Sea
+			178 # West Polynesia
+			179 # French Polynesia
+		}
+	}
+
+	oceania = {
+
+		strategic_regions = {
+			156 # Australia
+			157 # New Zealand
+			86  # Tasman Sea
+			98  # Great Australian Bight
+			81  # Coral Sea
+			194 #Easern Australia
+			84 #Gulf of Carpanteria
+			193 #Northern Australia
+		}
+	}
+	
+	home_islands = {
+		strategic_regions = {
+			76 	#Okinawa et al
+			154 #Kanto
+			160 #Phillipines - we care about these too!
+		}
+	}
+	
+	shanghai_china = {
+		strategic_regions = {
+			309
+		}
+	}
+	
+	caucasus_don = {
+		strategic_regions = {
+			135
+			134
+		}
+	}
+	
+	just_philippines = {
+		strategic_regions = {
+			160 #Phillipines
+		}
+	}
+	
+	east_indies = {
+		strategic_regions = {
+			167 #Papua
+			93
+			158
+			159 #Brunei
+			187
+		}
+	}
+	
+	burma = {
+		strategic_regions = {
+			189 #Burma
+			142 #Vietnam/Siam
+			141 #Bengal
+		}
+	}
+
+	horn_of_africa = {
+		strategic_regions = {
+			17 #Ethiopian Highlands
+			273 #Danakil
+			274 #Ogaden 
+		}
+	}
+	
+	dodik_africa = {
+		strategic_regions = {
+			223
+			224
+			185
+			271
+			272
+			217
+			227
+			236
+			238
+		}
+	}
+	
+	central_africa = {
+		strategic_regions = {
+			140
+			226
+			183
+			272
+			184
+			227
+		}
+	}
+	east_africa = {
+		strategic_regions = {
+			216 # Upper Nile
+			17 #Ethiopian Highlands
+			273 #Danakil
+			274 #Ogaden 
+			217 # Lake Victoria
+			185 # South East Africa
+			181 # Madagaskar
+		}
+	}
+	
+	defend_moscow_zone = {
+		strategic_regions = {
+			133 #Central Russia
+			150 #Arkangelsk
+			137 #Western Steppe
+		}
+	}
+	
+	belgian_congo = {
+		strategic_regions = {
+			227 #North East Congo
+			271 #SE Congo
+			272 #W Congo
+		}
+	}
+	
+	just_finland = {
+		strategic_regions = {
+			13 #Eastern Finland
+			277 #"Northern Finland"
+ 			278 #"Western Finland"
+		}
+	}
+
+	just_norway = {
+		strategic_regions = {
+			11 #Southern Norway
+			191 #"Northern Norway"
+		}
+	}
+
+	just_denmark_excluding_greenland = {
+		strategic_regions = {
+			275 #"Jutland Peninsula"
+		}
+	}
+
+
+	just_iceland = {
+		strategic_regions = {
+			161 #"Iceland"
+		}
+	}
+
+	winter_war_front = {
+		strategic_regions = {
+			132 # Novgorod (for Leningrad)
+			13 # Eastern Finland
+			265 # East Karelia
+			#277 # Northern Finland
+			#12 # Kola
+		}
+	}
+}

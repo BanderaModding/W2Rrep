@@ -1,0 +1,354 @@
+ideas = {
+
+	factory_mob = { 
+		law = yes
+		use_list_view = yes
+
+		women_home = {
+            
+			picture = GFX_idea_women_home
+		
+			
+			default = yes
+
+			cost = 100
+			removal_cost = -1
+			level = 5
+
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+				stability_factor = 0.1
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					NOT = { has_government = fascism }
+				}
+
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = women_in_the_workplace
+						has_idea = women_and_children_in_the_workforce
+						has_idea = women_in_the_workforce
+					}
+				}
+   			}
+		}
+
+		women_in_the_workplace = {
+
+			cost = 100
+			removal_cost = -1
+			level = 4
+
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+
+			available = {
+				OR = {
+					has_government = democratic
+					has_government = communism
+					any_enemy_country = {
+						ic_ratio = { 
+							tag = ROOT 
+							ratio > 0.25
+						}
+					}
+				
+				}
+			}
+
+			ai_will_do = {
+				factor = 1
+
+				modifier = {
+					factor = 0
+					OR = {
+						has_idea = women_and_children_in_the_workforce
+						has_idea = women_in_the_workforce
+					}
+				}
+
+   				modifier = {
+					factor = 20
+					has_war = yes
+				}
+   			}
+		}
+
+		women_in_the_workforce = {
+
+			cost = 100
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+			    conscription = 0.005
+				stability_factor = -0.05
+				war_support_weekly = -0.001
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.10
+				MONTHLY_POPULATION = -0.1
+			}
+			
+			cancel_if_invalid = yes
+
+			available = {
+				if = {
+					limit = {
+						original_tag = GER 
+					}
+					casualties > 1000000
+				}
+				OR = {
+				    AND = {
+					    any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.50
+							}
+						}
+						NOT = { has_idea = disarmed_nation }
+						NOT = { has_idea = volunteer_only }
+						NOT = { has_idea = limited_conscription }
+					}
+					AND = {
+						has_government = communism	
+					    any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.50
+							}
+						}
+					}
+					AND = {
+						has_government = democratic	
+					    any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.50
+							}
+						}
+					}
+					surrender_progress > 0.1				
+				}
+			}
+
+			ai_will_do = {
+   				base = 1
+                modifier = {
+					factor = 30
+					has_war = yes
+				}
+				modifier = {
+					factor = 30
+					casualties > 500000
+				}
+				modifier = {
+					factor = 0
+					has_idea = women_and_children_in_the_workforce
+				}
+   			}
+		}
+
+		women_and_children_in_the_workforce = {
+
+			cost = 100
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+			    conscription = 0.005
+				stability_factor = -0.075
+				war_support_weekly = -0.003
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = 0.20
+				production_speed_buildings_factor = 0.15
+				MONTHLY_POPULATION = -0.20
+			}
+			
+			cancel_if_invalid = yes
+
+			available = {
+					AND = {
+						has_government = communism
+						any_enemy_country = {
+							ic_ratio = { 
+								tag = ROOT 
+								ratio > 0.50
+							}
+						}
+						NOT = { has_idea = disarmed_nation }
+						NOT = { has_idea = volunteer_only }
+						NOT = { has_idea = limited_conscription }
+						surrender_progress > 0.05
+					}
+			}
+
+			ai_will_do = {
+   				base = 0
+
+				modifier = {
+					factor = 20
+					has_idea = sacred_war
+				}
+   			}
+		}
+	}
+
+
+	ministry_of_labour = { 
+		law = yes
+
+		offer_better_wages = {
+
+			available = {
+				NOT = { has_idea = disarmed_nation }
+				NOT = { has_idea = lowered_worker_minimum_wage }
+			}
+
+			cost = 150
+
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+
+			ai_will_do = {
+   				factor = 0
+   			}
+		}
+
+		mandatory_army_service = {
+
+			available = {
+				OR = {
+					AND = {
+						NOT = { has_idea = disarmed_nation }
+						NOT = { has_idea = volunteer_only }
+					}
+					tag = JAP
+				}
+			}
+
+			cost = 150
+
+			modifier = {
+				training_time_factor = -0.1
+				experience_loss_factor = -0.05
+				experience_gain_army = 0.05
+				conscription_factor = 0.1
+				consumer_goods_factor = 0.03
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					tag = SOV
+				}
+				
+				modifier = {
+					factor = 200
+					tag = FIN
+				}
+
+   				modifier = {
+					factor = 20
+					is_major = yes
+				}
+				
+				modifier = {
+					factor = 5
+					is_major = no
+				}
+
+				modifier = {
+					factor = 200
+					date > 1936.9.1
+					tag = GER
+				}
+   			}
+		}
+
+		incentivise_employability_oppertunities = {
+
+			available = {
+				NOT = { has_idea = disarmed_nation }
+			}
+
+			cost = 150
+
+			modifier = {
+				non_core_manpower = 0.05
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.05
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 5
+					is_major = no
+				}
+   			}
+		}
+
+		conscript_men_into_the_factories = {
+
+			available = {
+				NOT = { has_idea = disarmed_nation }
+				NOT = { has_idea = volunteer_only }
+				NOT = { has_idea = limited_conscription }
+				has_idea = tot_economic_mobilisation
+				if = {
+					limit = {
+						tag = GER
+					}
+					has_completed_focus = GER_appoint_albert_speer
+				}
+			}
+			
+			cost = 150
+
+			modifier = {
+				consumer_goods_expected_value = 0.04
+				industrial_capacity_factory = 0.5
+				industrial_capacity_dockyard = 0.5
+				conscription_factor = -0.25
+			}
+
+			ai_will_do = {
+   				factor = 50
+
+				modifier = {
+					factor = 0
+					NOT = {
+						tag = CHI
+					}
+				}
+
+				modifier = {
+					factor = 0
+					
+					tag = CHI
+					NOT = { has_completed_focus = CHI_forced_conscription }
+				}
+   			}
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+sound = {
+	name = "ger_speech_1"
+	file = "ger_speech/total_war_speech.wav"
+	volume = 1
+	always_load = no
+}
+
+sound = {
+	name = "ger_speech_2"
+	file = "ger_speech/ger_speech_siemens.wav"
+	volume = 1
+	always_load = no
+}
+
+sound = {
+	name = "ger_speech_3"
+	file = "ger_speech/ger_speech_losing.wav"
+	volume = 1
+	always_load = no
+}

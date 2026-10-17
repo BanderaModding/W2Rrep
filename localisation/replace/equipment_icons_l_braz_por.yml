@@ -1,0 +1,115 @@
+﻿l_braz_por:
+ infantry_equipment: "£crunch_infantry_equipment_texticon Equipamento de Infantaria"
+ infantry_equipment_short: "£crunch_infantry_equipment_texticon Equip. de Infantaria"
+
+ support_equipment_short: "£crunch_support_equipment_texticon Equip. de Suporte"
+ support_equipment: "£crunch_support_equipment_texticon Equipamento de Suporte"
+
+ artillery_equipment: "£crunch_artillery_texticon Artilharia"
+ artillery_equipment_short: "£crunch_artillery_texticon Artilharia"
+
+ rocket_artillery_equipment: "£crunch_rocketartillery_texticon Artilharia de Foguetes"
+ rocket_artillery_equipment_short: "£crunch_rocketartillery_texticon Art. de Foguetes"
+ 
+ super_heavy_artillery_equipment: "£crunch_superheavyartillery_texticon Obus Superpesado"
+ super_heavy_artillery_equipment_short: "£crunch_superheavyartillery_texticon Obus SP."
+
+ self_propelled_super_heavy_artillery_equipment: "£crunch_selfpropelledsuperheavyartillery_texticon Obus Superpesado Autopropulsado"
+ self_propelled_super_heavy_artillery_equipment_short: "£crunch_selfpropelledsuperheavyartillery_texticon Obus SP. Autoprop."
+
+ anti_air_equipment: "£crunch_antiair_texticon Antiaérea"
+ anti_air_equipment_short: "£crunch_antiair_texticon Antiaérea"
+ 
+ anti_tank_equipment: "£crunch_antitank_texticon Antitanque"
+ anti_tank_equipment_short: "£crunch_antitank_texticon Antitanque"
+ 
+ light_tank_flame_chassis: "£crunch_flametank_texticon Tanque Lança-Chamas Leve"
+ medium_tank_flame_chassis: "£crunch_flametank_texticon Tanque Lança-Chamas Médio"
+ heavy_tank_flame_chassis: "£crunch_flametank_texticon Tanque Lança-Chamas Pesado"
+ 
+ medium_tank_chassis: "£crunch_mediumtank_texticon Tanque Médio"
+ light_tank_chassis: "£crunch_lighttank_texticon Tanque Leve"
+ heavy_tank_chassis: "£crunch_heavytank_texticon Tanque Pesado"
+ modern_tank_chassis: "£crunch_moderntank_texticon Tanque Moderno"
+
+ medium_tank_destroyer_chassis: "£crunch_mediumtank_texticon Caça-Tanques Médio"
+ light_tank_destroyer_chassis: "£crunch_lighttank_texticon Caça-Tanques Leve"
+ heavy_tank_destroyer_chassis: "£crunch_heavytank_texticon Caça-Tanques Pesado"
+ 
+ medium_tank_aa_chassis: "£crunch_mediumtank_texticon Antiaéreo Blindado Médio"
+ light_tank_aa_chassis: "£crunch_lighttank_texticon Antiaéreo Blindado Leve"
+ heavy_tank_aa_chassis: "£crunch_heavytank_texticon Antiaéreo Blindado Pesado"
+ 
+ medium_tank_artillery_chassis: "£crunch_mediumtank_texticon Artilharia Autopropulsada Média"
+ light_tank_artillery_chassis: "£crunch_lighttank_texticon Artilharia Autopropulsada Leve"
+ heavy_tank_artillery_chassis: "£crunch_heavytank_texticon Artilharia Autopropulsada Pesada"
+ 
+ 
+
+ armor: "£crunch_armortechnology_texticon Tecnologia de Blindagem"
+ 
+ super_heavy_tank_chassis: "£crunch_superheavytank_texticon Tanque Superpesado"
+ super_heavy_tank_destroyer_chassis: "£crunch_superheavytank_texticon Caça-Tanques Superpesado"
+ 
+ land_cruiser_chassis: "£crunch_superheavytank_texticon Cruzador Terrestre"
+ 
+ mio_cat_eq_all_heavy_tank: "Todos os Equipamentos de £crunch_heavyarmortechnology_texticon Tanques Pesados"
+ mio_cat_eq_all_medium_tank: "Todos os Equipamentos de £crunch_mediumarmortechnology_texticon Tanques Médios"
+ mio_cat_eq_all_light_tank: "Todos os Equipamentos de £crunch_lightarmortechnology_texticon Tanques Leves"
+ 
+
+ motorized_equipment: "£crunch_motorized_texticon Caminhão"
+
+ mechanized_equipment_short: "£crunch_mechanized_texticon Mecanizado"
+ 
+ armored_car_equipment: "£crunch_armoredcar_texticon Carro Blindado"
+ 
+ amphibious_mechanized_equipment: "£crunch_amphibiousmech_texticon Veículos Anfíbios"
+ amphibious_mechanized_equipment_short: "£crunch_amphibiousmech_texticon Veículos Anfíbios"
+ 
+ amphibious_tank_chassis: "£crunch_amphibioustank_texticon Tanque Anfíbio"
+ amphibious_tank_equipment_short: "£crunch_amphibioustank_texticon Tanque Anfíbio"
+ 
+ light_tank_amphibious_chassis: "£crunch_amphibioustank_texticon Tanques Anfíbios Leves"
+ light_tank_amphibious_chassis_short: "£crunch_amphibioustank_texticon Tanques Anfíbios L."
+ medium_tank_amphibious_chassis: "£crunch_amphibioustank_texticon Tanques Anfíbios Médios"
+ medium_tank_amphibious_chassis_short: "£crunch_amphibioustank_texticon Tanques Anfíbios M."
+ heavy_tank_amphibious_chassis: "£crunch_amphibioustank_texticon Tanques Anfíbios Pesados"
+ heavy_tank_amphibious_chassis_short: "£crunch_amphibioustank_texticon Tanques Anfíbios P."
+ 
+ land_cruiser_equipment: "Cruzador Terrestre"
+ land_cruiser_equipment_desc: "$land_cruiser_chassis_desc$"
+ land_cruiser_equipment_1: "Cruzador Terrestre"
+ land_cruiser_equipment_1_short: "Cruzador Terrestre"
+ 
+#################################################### BUILDINGS
+ 
+ arms_factory: "£crunch_mil_factory_texticon Fábrica Militar"
+ arms_factory_plural: "£crunch_mil_factory_texticon Fábricas Militares"
+ 
+ industrial_complex: "£crunch_civ_factory_texticon Fábrica Civil"
+ industrial_complex_plural: "£crunch_civ_factory_texticon Fábricas Civis"
+ 
+ dockyard: "£crunch_dockyard_texticon Estaleiro Naval"
+ dockyard_plural: "£crunch_dockyard_texticon Estaleiros Navais"
+ 
+ infrastructure: "£crunch_infrastructure_texticon Infraestrutura"
+ infrastructure_plural: "£crunch_infrastructure_texticon Infraestrutura"
+ 
+ air_base: "£crunch_airbase_texticon Base Aérea"
+ air_base_plural: "£crunch_airbase_texticon Bases Aéreas"
+ 
+ naval_base: "£crunch_naval_base_texticon Base Naval"
+ naval_base_plural: "£crunch_naval_base_texticon Bases Navais"
+ 
+ synthetic_refinery: "£crunch_refinery_texticon Refinaria"
+ synthetic_refinery_plural: "£crunch_refinery_texticon Refinarias"
+ 
+ fuel_silo: "£crunch_silo_texticon Silo de Combustível"
+ fuel_silo_plural: "£crunch_silo_texticon Silos de Combustível"
+
+ rail_way: "£crunch_railways_texticon Ferrovias"
+ 
+ EFFECT_ADD_EXTRA_STATE_SHARED_BUILDING_SLOTS: "Adicionar $COUNT|G$ £crunch_buildingslot_texticon Espaços de Construção."
+ EFFECT_REMOVE_EXTRA_STATE_SHARED_BUILDING_SLOTS: "Remover $COUNT|R$ £crunch_buildingslot_texticon Espaços de Construção."
+```

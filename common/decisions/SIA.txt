@@ -1,0 +1,45 @@
+political_actions = {
+	SIA_transfer_malaya_to_JAP = {
+		icon = ger_reichskommissariats
+		allowed = {
+			tag = SIA
+		}
+		available = {
+			336 = { is_fully_controlled_by = SIA }
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		visible = {
+			date > 1939.1.1
+		}
+		
+		complete_effect = {
+			JAP = {
+				transfer_state = 336
+			}
+		}
+	}
+	
+	SIA_transfer_sing_to_JAP = {
+		icon = ger_reichskommissariats
+		allowed = {
+			tag = SIA
+		}
+		available = {
+			1021 = { is_fully_controlled_by = SIA }
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		visible = {
+			date > 1939.1.1
+		}
+		
+		complete_effect = {
+			JAP = {
+				transfer_state = 1021
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+
+# FOREIGN POLICY
+foreign_politics = {
+	
+	RNG_core_state = {
+		icon = GFX_decision_infiltrate_state
+	
+		allowed = {
+			original_tag = RNG
+		}
+		
+		visible = {
+			JAP = {
+				has_completed_focus = JAP_reorganized_national_government
+			}
+			is_ally_with = JAP
+		}
+		
+		available = {
+			NOT = { has_country_flag = RNG_coring_state_in_progress }
+		}
+
+		target_root_trigger = { original_tag = RNG }
+
+		state_target = any_controlled_state
+	    
+	    target_trigger = {
+	        FROM = {
+	        	NOT = { is_core_of = ROOT }
+	        	is_fully_controlled_by = ROOT
+	        	is_core_of = CHI
+	        	any_neighbor_state = {
+	        		is_core_of = ROOT
+	        	}
+	        }
+	    }
+	    on_map_mode = map_and_decisions_view 
+
+	    cost = 75		
+
+		fire_only_once = yes
+
+		days_remove = 70
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+
+}
+
+

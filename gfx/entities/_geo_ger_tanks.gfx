@@ -1,0 +1,135 @@
+
+objectTypes = {
+
+##パンター
+	pdxmesh = {
+		name = "geo_panther_d_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_panther_d_ns_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d_ns.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_panther_a_mesh"
+		file = "gfx/models/units/tanks/geo_panther_a.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_panther_a_ns_mesh"
+		file = "gfx/models/units/tanks/geo_panther_a_ns.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_panther_g_mesh"
+		file = "gfx/models/units/tanks/geo_panther_g.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_panther_g_ns_mesh"
+		file = "gfx/models/units/tanks/geo_panther_g_ns.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+	}
+####
+	pdxmesh = {
+		name = "geo_panzer4_h_mesh"
+		file = "gfx/models/units/tanks/geo_panzer4_h.mesh"
+		
+		animation = { id = "attack"			type = "geo_panzer4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panzer4_idle_animation" }
+		animation = { id = "move"			type = "geo_panzer4_move_animation" }
+	}
+	
+	pdxmesh = {
+		name = "geo_tiger2_mesh"
+		file = "gfx/models/units/tanks/geo_tiger2.mesh"
+		
+		animation = { id = "attack"			type = "geo_tiger2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_tiger2_idle_animation" }
+		animation = { id = "move"			type = "geo_tiger2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_tiger2_no_skirt_mesh"
+		file = "gfx/models/units/tanks/geo_tiger2_no_skirt.mesh"
+		
+		animation = { id = "attack"			type = "geo_tiger2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_tiger2_idle_animation" }
+		animation = { id = "move"			type = "geo_tiger2_move_animation" }
+	}
+		pdxmesh = {
+		name = "geo_tiger2_p_mesh"
+		file = "gfx/models/units/tanks/geo_tiger2_p.mesh"
+		
+		animation = { id = "attack"			type = "geo_tiger2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_tiger2_idle_animation" }
+		animation = { id = "move"			type = "geo_tiger2_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_tiger2_p_no_skirt_mesh"
+		file = "gfx/models/units/tanks/geo_tiger2_p_no_skirt.mesh"
+		
+		animation = { id = "attack"			type = "geo_tiger2_attack_animation" }		
+		animation = { id = "idle"			type = "geo_tiger2_idle_animation" }
+		animation = { id = "move"			type = "geo_tiger2_move_animation" }
+	}
+####
+
+	pdxmesh = {
+		name = "geo_panzer2_mesh"
+		file = "gfx/models/units/tanks/GER_tank_light.mesh"
+
+		animation = { id = "attack"			type = "geo_panzer2_attack_animation" }
+		animation = { id = "idle"			type = "GER_tank_light_idle_animation" }
+		animation = { id = "move"			type = "GER_tank_light_moving_animation" }
+		
+		scale = 0.6
+		
+	}
+
+	pdxmesh = {
+		name = "geo_38t_e_mesh"
+		file = "gfx/models/units/tanks/geo_38t_e.mesh"
+		
+		animation = { id = "attack"			type = "geo_38t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_38t_idle_animation" }
+		animation = { id = "move"			type = "geo_38t_move_animation" }
+	}
+	
+##tiger1
+	pdxmesh = {
+		name = "geo_tiger_mesh"
+		file = "gfx/models/units/tanks/geo_tiger.mesh"
+		
+		animation = { id = "attack"			type = "geo_tiger_attack_animation" }		
+		animation = { id = "idle"			type = "geo_tiger_idle_animation" }
+		animation = { id = "move"			type = "geo_tiger_move_animation" }
+	}
+}
+
+
+
